@@ -1,0 +1,19 @@
+{
+  "apps": [
+    {
+      "serverURL": "http://localhost:1337/parse",
+      "appId": "APPLICATION_ID",
+      "masterKey": "MASTER_KEY",
+      "appName": "Kimetrics",
+      "supportedPusLocales": ["en", "ru", "fr"]
+    }
+  ],
+  "users": [
+    {
+      "user":"user",
+      "pass":"pass",
+      "apps": [{"appId": "APPLICATION_ID"}]
+    }
+  ]
+}
+
